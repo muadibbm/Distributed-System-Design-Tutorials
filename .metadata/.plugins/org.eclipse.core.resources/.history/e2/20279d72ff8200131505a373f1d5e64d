@@ -1,0 +1,27 @@
+import java.net.*;
+import java.io.*;
+
+public class UDPClient 
+{
+	
+	public static void main(String[] args) 
+	{
+		DatagramSocket datagramSocket = null;
+		
+		try {
+			// Create a Datagram Socket and bind it to a local port
+			datagramSocket = new DatagramSocket();
+			// Place data in byte array
+			String data = "Can you hear me?";
+			byte [] message = "Can you hear me?".getBytes();
+			InetAddress host = InetAddress.getByName("localhost");
+			int serverPort = 6789;
+			// Create a Datagram Packet
+			DatagramPacket request = new DatagramPacket(message, "")
+			
+		} catch (IOException e) {
+			
+		}
+	}
+
+}

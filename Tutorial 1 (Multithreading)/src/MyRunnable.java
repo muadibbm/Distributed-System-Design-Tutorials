@@ -1,7 +1,8 @@
 
 // Implementing the Runnable interface, the runnable object is passed to the Thread constructor
 
-public class MyRunnable implements Runnable {
+public class MyRunnable implements Runnable 
+{
 	
 	public void run() 
 	{

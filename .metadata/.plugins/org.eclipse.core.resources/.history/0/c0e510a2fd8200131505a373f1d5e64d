@@ -1,0 +1,13 @@
+import java.net.*;
+import java.io.*;
+
+public class UDPClient 
+{
+	private Socket socket;
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}
