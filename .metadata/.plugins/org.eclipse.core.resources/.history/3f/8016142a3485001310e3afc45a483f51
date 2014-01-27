@@ -1,0 +1,23 @@
+
+// Extending the Thread class and then implmenting it Run method
+
+public class MyThread extends Thread {
+
+	public void runA()
+	{
+		System.out.println("This is myThread extending Thread and my Id is " + this.getId());
+		SynchronizedCounter sc1 = new SynchronizedCounter();
+		SynchronizedCounter sc2 = new SynchronizedCounter();
+		sc1.synchDecrement();
+		sc2.synchIncrement();
+		System.out.println("sc1 synchCount :" + sc1.getSyncCount());
+		System.out.println("sc2 synchCount :" + sc2.getSyncCount());
+	}
+	
+	public static void main(String[] args) 
+	{
+		new MyThread().run();
+		new MyThread().run();
+	}
+
+}

@@ -1,0 +1,34 @@
+import java.net.*;
+import java.io.*;
+
+public class TCPClient 
+{
+	public static void main(String[] args)
+	{
+		Socket socket = null; // Also known as ClientSocket
+		
+		PrintWriter out;
+		BufferedReader in;
+		
+		try {
+			// Create a Socket and bind it to a port
+			int serverPort = 6789;
+			InetAddress host = InetAddress.getByName("localhost");
+			socket = new Socket(host, serverPort);
+			// Create the stream of data to be communicated between this client and the server
+			in = socket.getInputStream();
+			PrintWriter 
+		    userInput = new BufferedReader(new InputStreamReader(System.in));
+			String line;
+			byte [] byteArray = new byte [1000];
+			
+			
+			
+			
+		} catch (UnknownHostException e) {
+			System.out.println("UnknownHostException:" + e.getMessage());
+		} catch (IOException e) {
+			System.out.println("IOException:" + e.getMessage());
+		}
+	}
+}

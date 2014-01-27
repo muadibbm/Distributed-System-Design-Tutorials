@@ -1,0 +1,5 @@
+TCP provides a connection-oriented communication between client-server applications.
+To communicated over TCP, client and server programs establish a connection using sockets
+and then they send and receive packets though them. A socket is a end-point of a two-way
+communication link. A socket is bound to a port number so the TCP layer can identify the
+application it is connected to. An end-point is a combination of IP address and port number.

@@ -1,0 +1,35 @@
+import java.io.*;
+import java.net.*;
+
+public class TCPServer 
+{
+
+	public static void main(String[] args) 
+	{
+		ServerSocket socket = null;
+		int serverPort = 6789;
+		
+		try {
+			socket = new ServerSocket(serverPort);
+			Socket server = socket.accept();
+			
+			while(true) {
+
+				Socket server = socket.accept();
+
+				// Create the stream of data to be communicated between this server and the client
+				DataOutputStream out = new DataOutputStream(server.getOutputStream());
+				BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(server.getInputStream()));
+				String line = bufferedReader.readLine();
+				byte [] byteArray = new byte [1000];
+				byteArray = line.getBytes();
+				out.write(byteArray);
+			}
+		} catch (UnknownHostException e) {
+			System.out.println("UnknownHostException:" + e.getMessage());
+		} catch (IOException e) {
+			System.out.println("IOException:" + e.getMessage());
+		}
+	}
+
+}

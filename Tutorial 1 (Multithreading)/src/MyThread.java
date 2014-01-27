@@ -1,5 +1,5 @@
 
-// Extending the Thread class and then implmenting it Run method
+// Extending the Thread class and then implementing it Run method
 
 public class MyThread extends Thread {
 

@@ -5,4 +5,5 @@
 <fullyQualifiedTypeName name="java.rmi.Remote"/>
 <fullyQualifiedTypeName name="java.rmi.RMISecurityManager"/>
 <fullyQualifiedTypeName name="java.rmi.Naming"/>
+<fullyQualifiedTypeName name="SynchronizedCounter"/>
 </qualifiedTypeNameHistroy>
