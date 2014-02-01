@@ -1,0 +1,3 @@
+In Remote Method Invocation (RMI), an object in one process can invoke a method on a remote object in another process. This is
+similar to Remote Procedure Call (RPC) but it is extended to work on distributed objects. In Java, RMI provides remote communication
+between programs in Java Virtual Machines across a distributed system.  

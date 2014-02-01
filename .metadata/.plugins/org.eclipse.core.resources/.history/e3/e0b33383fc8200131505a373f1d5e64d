@@ -1,8 +1,0 @@
-Computers in networks communicate through two ways TCP and UDP.
-UDP (User Datagram Protocal) sends independent packets of data called datagrams from one
-computer to another. It is an unreliable method of communication meaning that unlike TCP,
-it is not a connection-based protocal. 
-Ping command which is used to test the connectivity
-of the network is an example of an application that uses UDP. UDP is said to be a datagram-based
-communication. In UDK the datagram packets contains the port number of destination and UDP
-routes the packet to the right application.

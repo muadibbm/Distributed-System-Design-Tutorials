@@ -1,0 +1,23 @@
+import java.rmi.Remote;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+
+public class ServerRMI implements InterfaceRMI{
+
+	@Override
+	public String method(String name) throws RemoteException 
+	{
+		return "Method called with parameter : " + name;
+	}
+	
+	public void registerRemoteObject()
+	{
+		Remote obj = UnicastRemoteObject.exportObject(obj, port);
+	}
+	
+	public static void main(String[] args) 
+	{
+		
+	}
+}

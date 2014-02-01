@@ -1,0 +1,9 @@
+In Remote Method Invocation (RMI), an object running in one program can invoke a method on a remote object running in another program. This is
+similar to Remote Procedure Call (RPC) but it is extended to work on distributed objects. In Java, RMI provides remote communication
+between programs in Java Virtual Machines across a distributed system. 
+The basic components of RMI are typically a client which invokes method on a remote object, a server on which the remote object is running
+and a registry server which associates the remote objects with unique names. For RMI to work, both client and server have to implement the
+same server object interface which defines the methods for the remote object running on the server. An object that runs on the client and
+acts as a reference to the the remote object on the server is called a server stub. In order for the invocation to work, another object should
+communicate with both the server stub on the client and the remote object on the server. This object whihc resides on the server is called
+a Server Skeleton.    

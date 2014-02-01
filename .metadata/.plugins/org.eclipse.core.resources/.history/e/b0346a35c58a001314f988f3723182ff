@@ -1,0 +1,9 @@
+import java.rmi.Remote;
+
+public interface InterfaceRMI extends Remote 
+{
+	public String method(String name)
+	{
+		
+	}
+}
