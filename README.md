@@ -19,21 +19,7 @@ Thread.sleep forces the thread to wait for a specific period.
 Interrupts are used to notify threads that they have to stop and do something else.
 In order to keep the integrity of the data, we have to sometimes synchronize methods in threads.
 This can be done using synchronized keyword as in SynchronizedCounter class. 
-Note that constructors cannot be synchronized. 
-We can also use the keyword in the following way which has the same functionality:
-void method() {
-	synchronized(this) {
-		// do something
-	}
-}
-We can also use the lock interface to synchronize objects as below:
-lock l = ...
-l.lock();
-try {
- 	// access the resources protected by this lock
-} finally {
-	l.unlock();
-}
+Note that constructors cannot be synchronized.
 
 UDP Client-Server
 -----------------
