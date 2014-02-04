@@ -4,6 +4,8 @@ Distributed-System-Design-Tutorials
 Various applications in the field of distributed systems.
 Based on COMP 6231 course at Concordia University and The Java Tutorials.
 
+To run the codes (if you have eclipse), just switch your workspace to the repository folder.
+
 Multithreading
 --------------
 
