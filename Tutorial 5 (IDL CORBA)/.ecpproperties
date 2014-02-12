@@ -1,5 +1,9 @@
 #ECP Compilation Preferences
+<<<<<<< HEAD
 #Tue Feb 11 21:00:25 EST 2014
+=======
+#Tue Feb 11 13:28:43 EST 2014
+>>>>>>> b25cfa2d74ff8c354619e0ecc60fec6b070e9743
 .INVOKE_COMPILERS=net.sf.eclipscorba.compiler.openorb
 .INCLUDE_PATHS=
 .CUSTOM_OPTIONS=false

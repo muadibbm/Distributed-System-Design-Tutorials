@@ -1,26 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="SynchronizedCounter"/>
-<fullyQualifiedTypeName name="java.rmi.RemoteException"/>
-<fullyQualifiedTypeName name="java.rmi.Remote"/>
-<fullyQualifiedTypeName name="java.rmi.server.UnicastRemoteObject"/>
-<fullyQualifiedTypeName name="java.rmi.registry.LocateRegistry"/>
-<fullyQualifiedTypeName name="java.rmi.registry.Registry"/>
-<fullyQualifiedTypeName name="java.rmi.RMISecurityManager"/>
-<fullyQualifiedTypeName name="java.rmi.Naming"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.ORB"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.ORBPackage.InvalidName"/>
-<fullyQualifiedTypeName name="org.omg.PortableServer.POA"/>
-<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ObjectAlreadyActive"/>
-<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ServantAlreadyActive"/>
-<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ObjectNotActive"/>
-<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.WrongPolicy"/>
-<fullyQualifiedTypeName name="org.omg.CORBA.Object"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="java.io.IOException"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="IDLmap.sampleInterfaceHelper"/>
-</qualifiedTypeNameHistroy>
+<qualifiedTypeNameHistroy/>
