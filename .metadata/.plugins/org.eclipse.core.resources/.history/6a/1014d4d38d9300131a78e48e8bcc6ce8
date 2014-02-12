@@ -1,0 +1,13 @@
+package IDLmap;
+
+import org.omg.CORBA.ORB;
+
+public class clientIDL 
+{
+
+	public static void main(String[] args) 
+	{
+		
+	}
+
+}

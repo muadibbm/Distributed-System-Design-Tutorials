@@ -1,0 +1,23 @@
+package IDLmap;
+
+public class sampleInterfaceImp extends sampleInterfacePOA 
+{
+	@Override
+	public void method() 
+	{
+		System.out.println("Method Called");
+	}
+
+	@Override
+	public String sendString() 
+	{
+		return "String sent";
+	}
+
+	@Override
+	public void shutdown() {
+		
+		
+	}
+
+}

@@ -1,0 +1,6 @@
+package IDLmap;
+
+public class sampleInterfaceImp extends sampleInterfacePOA 
+{
+
+}

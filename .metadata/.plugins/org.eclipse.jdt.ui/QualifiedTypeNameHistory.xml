@@ -9,4 +9,18 @@
 <fullyQualifiedTypeName name="java.rmi.RMISecurityManager"/>
 <fullyQualifiedTypeName name="java.rmi.Naming"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.ORB"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.ORBPackage.InvalidName"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POA"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ObjectAlreadyActive"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ServantAlreadyActive"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.ObjectNotActive"/>
+<fullyQualifiedTypeName name="org.omg.PortableServer.POAPackage.WrongPolicy"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.Object"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="IDLmap.sampleInterfaceHelper"/>
 </qualifiedTypeNameHistroy>

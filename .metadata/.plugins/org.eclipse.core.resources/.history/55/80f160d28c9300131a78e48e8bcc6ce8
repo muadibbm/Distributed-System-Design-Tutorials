@@ -1,0 +1,23 @@
+package IDLmap;
+
+import org.omg.CORBA.ORB;
+import org.omg.CORBA.ORBPackage.InvalidName;
+import org.omg.PortableServer.POA;
+import org.omg.PortableServer.POAHelper;
+import org.omg.PortableServer.POAPackage.ServantAlreadyActive;
+import org.omg.PortableServer.POAPackage.ObjectNotActive;
+import org.omg.PortableServer.POAPackage.WrongPolicy;
+
+public class serverIDL 
+{
+
+	public static void main(String[] args) throws InvalidName, ServantAlreadyActive, WrongPolicy, ObjectNotActive 
+	{
+		ORB orb = ORB.init(args, null);
+		POA rootPOA = POAHelper.narrow(orb.resolve_initial_references("RootPOA"));
+		sampleInterfaceImp aSampleInterface = new sampleInterfaceImp();
+		byte [] id = rootPOA.activate_object(aSampleInterface);
+		org.omg.CORBA.Object reference_CORBA = rootPOA.id_to_reference(id); // reference to CORBA object
+	}
+
+}

@@ -1,0 +1,24 @@
+package IDLmap;
+
+public class sampleInterfaceImp extends sampleInterfacePOA 
+{
+
+	@Override
+	public void method() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String sendString() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void shutdown() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

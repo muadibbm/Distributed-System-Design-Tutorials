@@ -1,3 +1,0 @@
-JAVA IDL provides CORBA (Common Object Request Broker Architecture) for distributed invocation
-of methods between remote applications in a heterogeneous environment. Thus applications can
-be implemented in a variety of platforms and programming languages. 

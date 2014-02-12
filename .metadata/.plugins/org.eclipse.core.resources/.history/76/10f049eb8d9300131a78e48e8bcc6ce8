@@ -1,0 +1,15 @@
+package IDLmap;
+
+import org.omg.CORBA.ORB;
+
+public class clientIDL 
+{
+
+	public static void main(String[] args) 
+	{
+		// Initialize the ORB object
+		ORB orb = ORB.init(args, null);
+		// Get the CORBA object from the file
+	}
+
+}

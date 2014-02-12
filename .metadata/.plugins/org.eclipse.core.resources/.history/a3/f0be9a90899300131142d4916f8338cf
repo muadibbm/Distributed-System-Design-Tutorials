@@ -1,0 +1,11 @@
+module IDLmap
+{
+  interface sampleInterface
+  {
+  	void method();
+    string sendString();
+    // oneway keyword means that the client invocking this
+    // method does not expect any reply from the server
+    oneway void shutdown();
+  };
+};

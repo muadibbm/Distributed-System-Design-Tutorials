@@ -1,6 +1,0 @@
-import java.rmi.Remote;
-
-
-public interface InterfaceRMI extends Remote {
-
-}

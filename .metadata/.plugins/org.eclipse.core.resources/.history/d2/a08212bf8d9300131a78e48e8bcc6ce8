@@ -1,0 +1,9 @@
+package IDLmap;
+
+public class clientIDL {
+
+	public static void main(String[] args) {
+
+	}
+
+}
