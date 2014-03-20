@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Tutorial 5 (Web Service)">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="Tutorial_5_(Web_Service)"/>
+        <property name="java-output-path" value="/Tutorial 5 (Web Service)/build/classes"/>
+    </wb-module>
+</project-modules>

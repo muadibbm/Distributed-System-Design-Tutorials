@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Class-Path: axis.jar commons-discovery-0.2.jar jaxrpc.jar saaj.jar jav
+ ax.wsdl_1.6.2.v201012040545.jar org.apache.commons.logging_1.0.4.v201
+ 101211617.jar
+

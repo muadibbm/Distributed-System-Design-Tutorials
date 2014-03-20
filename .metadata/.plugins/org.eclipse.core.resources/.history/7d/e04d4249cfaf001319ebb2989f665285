@@ -1,0 +1,52 @@
+
+import java.util.Hashtable;
+
+public class SampleServer 
+{
+	Hashtable <String, Integer> aInventory = new Hashtable <String, Integer>();
+	
+	public SampleServer()
+	{
+		aInventory.put("Key1", 1);
+		aInventory.put("Key2", 2);
+		aInventory.put("Key3", 3);
+		display();
+	}
+	
+	public void display()
+	{
+		System.out.println("------Inventory-----");
+		System.out.println("Key1: "+aInventory.get("Key1"));
+		System.out.println("Key2: "+aInventory.get("Key2"));
+		System.out.println("Key3: "+aInventory.get("Key3"));
+		System.out.println("---------------------------");
+	}
+	
+	public synchronized String requestKey(String pKey, int pValue)
+	{
+		if(aInventory.containsKey(pKey))
+		{
+			int value = aInventory.get(pValue);
+			int newValue;
+			if(value - pValue >= 0)
+			{
+				inventory.put(item, value - pValue);
+				return quantity+" "+item+" were successfully purchased!\n" +
+				
+						("1. CoffeeBags: "+inventory.get("CoffeeBag")+"\n")+
+						("2. Apples: "+inventory.get("Apple")+"\n")+
+						("3. Bananas: "+inventory.get("Banana")+"\n")+
+						("---------------------------\n");
+			}
+			else
+			{
+				return "There was an error with your request";
+			}
+		}
+		else
+		{
+			return "There was an error with your request";
+		}
+	}
+}
+}

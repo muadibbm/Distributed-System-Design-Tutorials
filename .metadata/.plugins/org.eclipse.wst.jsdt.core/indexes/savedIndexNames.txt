@@ -1,0 +1,3 @@
+INDEX VERSION 1.122+C:\Users\muadibbm\workspace\Distributed-System-Design-Tutorials\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+834443628.index
+2249111432.index

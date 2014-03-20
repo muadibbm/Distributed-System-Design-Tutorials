@@ -1,0 +1,19 @@
+import java.util.Hashtable;
+
+public class Server {
+
+	 Hashtable<String, Integer> inventory = new Hashtable<String, Integer>();
+	
+	public Server()
+	{
+		inventory.put("CoffeeBag", 20);
+		inventory.put("Apple", 100);
+		inventory.put("Banana", 50);
+		displayContent();
+	}
+	
+	public synchronized String method(int pValue)
+	{
+		return pValue;
+	}
+}

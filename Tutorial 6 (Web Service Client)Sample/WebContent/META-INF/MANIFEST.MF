@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Class-Path: Tutorial 
+ 6 
+ (Web 
+ Service 
+ Client).jar
+

@@ -1,0 +1,20 @@
+
+import java.util.Hashtable;
+
+public class SampleServer 
+{
+	Hashtable <String, Integer> aInventory = new Hashtable <String, Integer>();
+	
+	public SampleServer()
+	{
+		aInventory.put("Key1", 1);
+		aInventory.put("Key2", 2);
+		aInventory.put("Key3", 3);
+		display();
+	}
+	
+	private void display()
+	{
+		
+	}
+}

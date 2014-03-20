@@ -1,0 +1,3 @@
+INDEX VERSION 1.126
+C:\Users\muadibbm\workspace\Distributed-System-Design-Tutorials\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3967017751.index
+\Tutorial 6 (Web Service Client)Sample\src

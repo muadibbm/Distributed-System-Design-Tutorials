@@ -1,0 +1,16 @@
+import java.util.Hashtable;
+
+public class Server {
+
+	 Hashtable<String, Integer> inventory = new Hashtable<String, Integer>();
+	
+	public Server()
+	{
+		System.out.println("Server Initialized");
+	}
+	
+	public synchronized String method(int pValue)
+	{
+		return "Parameter given to method is " + pValue;
+	}
+}
