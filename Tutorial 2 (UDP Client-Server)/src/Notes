@@ -5,6 +5,6 @@ it is not a connection-based protocal.
 Datagram is an independent, self-contained message sent over the network whose arrival,
 arrival time and content are not guaranteed.
 Ping command which is used to test the connectivity of the network is an example of an 
-application that uses UDP. UDP is said to be a datagram-based communication. In UDK the 
+application that uses UDP. UDP is said to be a datagram-based communication. In UDP the 
 datagram packets contains the port number of destination and UDP routes the packet to the
 right application.
